@@ -79,16 +79,6 @@ Wiener filtering generally provides more stable and robust results compared to p
 
 ---
 
-## Requirements
-
-Install dependencies with:
-
-```bash
-pip install numpy pandas matplotlib scikit-image
-```
-
----
-
 ## Author
 
 **Lorenzo Pasini**
