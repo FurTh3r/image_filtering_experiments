@@ -72,7 +72,7 @@ where:
 - $N(u,v)$ represents additive noise,
 - $G(u,v)$ is the observed degraded image.
 
-Restoration aims to estimate $F(u,v$ from the observed data $G(u,v)$.
+Restoration aims to estimate $F(u,v)$ from the observed data $G(u,v)$.
 
 ---
 
@@ -116,7 +116,7 @@ $$
 \eta(x,y) \sim \mathcal{N}(0,\sigma^2)
 $$
 
-where $sigma^2$ denotes the noise variance.
+where $\sigma^2$ denotes the noise variance.
 
 ---
 
@@ -244,7 +244,10 @@ The project requires **Python 3.8+**.
 Install all dependencies with:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+jupyter notebook filter_test_notebook.ipynb
 ```
 
 ### Main Dependencies
@@ -258,5 +261,9 @@ pip install -r requirements.txt
 
 ## Author
 
-**Lorenzo Pasini**  
+**Lorenzo Pasini**
 Academic Year 2025–2026
+
+## License
+
+No license file is currently included in this repository. Unless otherwise stated by the author, all rights are reserved.
